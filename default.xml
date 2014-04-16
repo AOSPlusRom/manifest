@@ -35,6 +35,9 @@
   <project path="packages/apps/Settings" name="AOSPlusRom/android_packages_apps_Settings" remote="github" revision="kitkat"  />
   <project path="packages/services/Telephony" name="AOSPlusRom/android_packages_services_telephony" remote="github" revision="kitkat" />
   <project path="frameworks/base" name="AOSPlusRom/android_frameworks_base" remote="github" revision="kitkat" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
 
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -299,7 +302,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
@@ -321,7 +323,6 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/ParanoidOTA" name="AOSPA/android_packages_apps_ParanoidOTA" remote="github" revision="kitkat" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
