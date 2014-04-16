@@ -38,6 +38,7 @@
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
+ <project path="vendor/pa" name="AOSPlusRom/android_vendor_pa" remote="github" revision="kitkat" >
 
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -424,7 +425,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
- <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
